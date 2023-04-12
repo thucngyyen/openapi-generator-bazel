@@ -25,4 +25,4 @@ jobs:
 
       # build
       - name: Build the code
-        run: bazel build openapi_generator
+        run: bazel build //...
