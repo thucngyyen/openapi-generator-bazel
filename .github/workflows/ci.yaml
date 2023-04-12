@@ -25,4 +25,6 @@ jobs:
 
       # build
       - name: Build the code
-        run: bazel build //...
+        run: |
+          cd internal/test
+          bazel build //...
